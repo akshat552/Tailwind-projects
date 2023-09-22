@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>module.exports = {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    }
+  }
+  <body>
+    <nav class="bg-purple-900 text-white font-mono flex justify-between">
+      <span class="px-5 flex items-center font-extrabold text-3xl"
+        >Phone Mania</span
+      >
+      <ul class="menu flex justify-end space-x-7 items-center px-6 h-16">
+        <li>Home</li>
+        <li>Abouts</li>
+        <li>Phone Catalouge</li>
+        <li>Help</li>
+        <li>Blog</li>
+        <div
+          class="flex h-10 w-32 p-2 justify-center text-purple-900 bg-purple-300 rounded-xl hover:border-2 hover:border-white hover:bg-purple-400 hover:text-white"
+        >
+          Download Now
+        </div>
+      </ul>
+    </nav>
+
+    <main class="bg-purple-100 pl-20 py-40 flex justify-center items-center">
+      <div class="h-2/3 w-2/3 p-2">
+        <h1 class="text-5xl text-black">Phone Haul Is Here!</h1>
+        <p class="pt-2 h-2/3 text-black">
+            Discover unbeatable deals on the latest smartphones at our website! Elevate your tech game with our exclusive sale, where you can snag top-tier smartphones at incredible discounts. Whether you're an Android enthusiast, an iOS aficionado, or looking for a budget-friendly option, we have a wide range of smartphones to cater to every need and preference. Don't miss out on this limited-time opportunity to upgrade your device and enjoy cutting-edge features, stunning cameras, and lightning-fast performance. Hurry, these deals won't last long! Explore our website now to find the perfect smartphone that fits your lifestyle and budget.
+        </p>
+        <div class="buttons flex space-x-6 p-5">
+        <div class="bg-purple-800 text-white p-2 h-9 w-20 mt-2 rounded-xl flex justify-center items-center hover:bg-purple-500">Buy Now</div>
+        <div class="bg-purple-800 text-white p-2 h-9 w-25 mt-2 rounded-xl flex justify-center items-center hover:bg-purple-500">Add To Cart</div>
+      </div>
+      </div>
+
+      <div class="flex justify-center items-center">
+        <img
+          class="w-1/2"
+          src="./business-man-mobile-phone-clipart-md.png"
+          alt=""
+        />
+      </div>
+    </main>
+  </body>
+</html>
